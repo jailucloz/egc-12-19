@@ -151,6 +151,7 @@ STATIC_URL = '/static/'
 
 # number of bits for the key, all auths should use the same number of bits
 KEYBITS = 256
+APIS = {}
 
 try:
     from local_settings import *
